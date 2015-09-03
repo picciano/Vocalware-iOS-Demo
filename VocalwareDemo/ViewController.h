@@ -7,9 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <AVFoundation/AVFoundation.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <AVAudioPlayerDelegate>
 
+@property (nonatomic) CGFloat voiceRate;
+@property (nonatomic) NSInteger voiceId;
+@property (nonatomic) NSInteger voiceEngineId;
+@property (nonatomic) NSInteger voiceLanguageId;
 
 @end
 

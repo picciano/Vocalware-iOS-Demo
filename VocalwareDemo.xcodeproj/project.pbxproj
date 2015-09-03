@@ -14,6 +14,9 @@
 		AF26D6141B98B741008DC4F5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF26D6131B98B741008DC4F5 /* Images.xcassets */; };
 		AF26D6171B98B741008DC4F5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF26D6151B98B741008DC4F5 /* LaunchScreen.xib */; };
 		AF26D6231B98B742008DC4F5 /* VocalwareDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AF26D6221B98B742008DC4F5 /* VocalwareDemoTests.m */; };
+		AF26D62E1B98B78B008DC4F5 /* APVocalware.m in Sources */ = {isa = PBXBuildFile; fileRef = AF26D62D1B98B78B008DC4F5 /* APVocalware.m */; };
+		AF26D6311B98B7C0008DC4F5 /* APMD5.m in Sources */ = {isa = PBXBuildFile; fileRef = AF26D6301B98B7C0008DC4F5 /* APMD5.m */; };
+		AF26D6351B98BA76008DC4F5 /* NSMutableArray+QueueStack.m in Sources */ = {isa = PBXBuildFile; fileRef = AF26D6341B98BA76008DC4F5 /* NSMutableArray+QueueStack.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,13 @@
 		AF26D61C1B98B742008DC4F5 /* VocalwareDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VocalwareDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF26D6211B98B742008DC4F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AF26D6221B98B742008DC4F5 /* VocalwareDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VocalwareDemoTests.m; sourceTree = "<group>"; };
+		AF26D62C1B98B78B008DC4F5 /* APVocalware.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APVocalware.h; sourceTree = "<group>"; };
+		AF26D62D1B98B78B008DC4F5 /* APVocalware.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APVocalware.m; sourceTree = "<group>"; };
+		AF26D62F1B98B7C0008DC4F5 /* APMD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APMD5.h; sourceTree = "<group>"; };
+		AF26D6301B98B7C0008DC4F5 /* APMD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APMD5.m; sourceTree = "<group>"; };
+		AF26D6321B98B847008DC4F5 /* Configuration.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Configuration.h; sourceTree = "<group>"; };
+		AF26D6331B98BA76008DC4F5 /* NSMutableArray+QueueStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+QueueStack.h"; sourceTree = "<group>"; };
+		AF26D6341B98BA76008DC4F5 /* NSMutableArray+QueueStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+QueueStack.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +95,13 @@
 				AF26D60B1B98B741008DC4F5 /* AppDelegate.m */,
 				AF26D60D1B98B741008DC4F5 /* ViewController.h */,
 				AF26D60E1B98B741008DC4F5 /* ViewController.m */,
+				AF26D62C1B98B78B008DC4F5 /* APVocalware.h */,
+				AF26D62D1B98B78B008DC4F5 /* APVocalware.m */,
+				AF26D62F1B98B7C0008DC4F5 /* APMD5.h */,
+				AF26D6301B98B7C0008DC4F5 /* APMD5.m */,
+				AF26D6321B98B847008DC4F5 /* Configuration.h */,
+				AF26D6331B98BA76008DC4F5 /* NSMutableArray+QueueStack.h */,
+				AF26D6341B98BA76008DC4F5 /* NSMutableArray+QueueStack.m */,
 				AF26D6101B98B741008DC4F5 /* Main.storyboard */,
 				AF26D6131B98B741008DC4F5 /* Images.xcassets */,
 				AF26D6151B98B741008DC4F5 /* LaunchScreen.xib */,
@@ -163,6 +180,7 @@
 		AF26D5FB1B98B741008DC4F5 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = AP;
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = "Anthony Picciano";
 				TargetAttributes = {
@@ -219,7 +237,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF26D6351B98BA76008DC4F5 /* NSMutableArray+QueueStack.m in Sources */,
 				AF26D60F1B98B741008DC4F5 /* ViewController.m in Sources */,
+				AF26D6311B98B7C0008DC4F5 /* APMD5.m in Sources */,
+				AF26D62E1B98B78B008DC4F5 /* APVocalware.m in Sources */,
 				AF26D60C1B98B741008DC4F5 /* AppDelegate.m in Sources */,
 				AF26D6091B98B741008DC4F5 /* main.m in Sources */,
 			);
